@@ -359,6 +359,11 @@ public enum Parameter: String, Hashable {
     case timestampFrom = "timestamp_from"
     case timestampTo = "timestamp_to"
     case statsGroups = "stats_groups"
+    case addToNews = "add_to_news"
+    case clickableStickers = "clickable_stickers"
+    case uploadResults = "upload_results"
+    case linkUrl = "link_url"
+    case linkText = "link_text"
     
     public var hashValue: Int {
         return self.rawValue.hashValue

@@ -7,6 +7,7 @@ public struct Scopes: OptionSet {
     public static let photos = Scopes(rawValue: 4)
     public static let audio = Scopes(rawValue: 8)
     public static let video = Scopes(rawValue: 16)
+    public static let stories = Scopes(rawValue: 64)
     public static let docs = Scopes(rawValue: 131_072)
     public static let notes = Scopes(rawValue: 2_048)
     public static let pages = Scopes(rawValue: 128)
